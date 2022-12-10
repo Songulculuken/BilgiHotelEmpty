@@ -16,7 +16,7 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter{ParameterName="kullaniciAd",Value=kullaniciAd},
             };
-            SqlDataReader kullaniciRdr = BilgiHotelHelperSql.myExecuteReader("select * from kullanicilar", kullaniciParametreleri, "txt");
+            SqlDataReader kullaniciRdr = BilgiHotelHelperSql.MyExecuteReader("select * from kullanicilar", kullaniciParametreleri, "txt");
             KullanicilarEntity myKullanici = new KullanicilarEntity();
             while(kullaniciRdr.Read())
             {
@@ -50,7 +50,7 @@ namespace BilgiHotelDAL
                 new SqlParameter{ParameterName="kullaniciAciklama", Value=eklenecekKullanici.kullaniciAciklama},
                 new SqlParameter{ParameterName="kullaniciTipiID", Value=eklenecekKullanici.kullaniciTipiID },
             };
-            int etkilenecekSatir = BilgiHotelHelperSql.myExecuteNonQuery("insert into kullanicilar ([kullaniciAd], [kullaniciSifre], [kullaniciEposta], [kullaniciEpostaOnay], [kullaniciUyelikTarih], [kullaniciSonGirisTarih], [resimID], [kullaniciAktifMi], [kullaniciAciklama], [kullaniciTipiID]) Values (@kullaniciAd,@kullaniciSifre,@kullaniciEposta,@kullaniciEpostaOnay,@kullaniciUyelikTarih,@kullaniciSonGirisTarih,@resimID,@kullaniciAktifMi,@kullaniciAciklama,@kullaniciTipiID)", kullaniciParametreleri, "txt");
+            int etkilenecekSatir = BilgiHotelHelperSql.MyExecuteNonQuery("insert into kullanicilar ([kullaniciAd], [kullaniciSifre], [kullaniciEposta], [kullaniciEpostaOnay], [kullaniciUyelikTarih], [kullaniciSonGirisTarih], [resimID], [kullaniciAktifMi], [kullaniciAciklama], [kullaniciTipiID]) Values (@kullaniciAd,@kullaniciSifre,@kullaniciEposta,@kullaniciEpostaOnay,@kullaniciUyelikTarih,@kullaniciSonGirisTarih,@resimID,@kullaniciAktifMi,@kullaniciAciklama,@kullaniciTipiID)", kullaniciParametreleri, "txt");
             return etkilenecekSatir;
         }
         //Kullanici Guncelle
@@ -69,7 +69,7 @@ namespace BilgiHotelDAL
                 new SqlParameter{ParameterName="kullaniciAciklama", Value=guncellenecekKullanici.kullaniciAciklama},
                 new SqlParameter{ParameterName="kullaniciTipiID", Value=guncellenecekKullanici.kullaniciTipiID },
             };
-            int etkilenecekSatir = BilgiHotelHelperSql.myExecuteNonQuery("update kullanicilar set kullaniciAd=@kullaniciAd,kullaniciSifre=@kullaniciSifre, kullaniciEposta=@kullaniciEposta,kullaniciEpostaOnay=@kullaniciEpostaOnay,kullaniciUyelikTarih=@kullaniciUyelikTarih,kullaniciSonGirisTarih=@kullaniciSonGirisTarih,resimID=@resimID, kullaniciAktifMi=@kullaniciAktifMi,kullaniciAciklama=@kullaniciAciklama,kullaniciTipiID=@kullaniciTipiID where kullaniciAd=@kullaniciAd", kullaniciParametreleri, "txt");
+            int etkilenecekSatir = BilgiHotelHelperSql.MyExecuteNonQuery("update kullanicilar set kullaniciAd=@kullaniciAd,kullaniciSifre=@kullaniciSifre, kullaniciEposta=@kullaniciEposta,kullaniciEpostaOnay=@kullaniciEpostaOnay,kullaniciUyelikTarih=@kullaniciUyelikTarih,kullaniciSonGirisTarih=@kullaniciSonGirisTarih,resimID=@resimID, kullaniciAktifMi=@kullaniciAktifMi,kullaniciAciklama=@kullaniciAciklama,kullaniciTipiID=@kullaniciTipiID where kullaniciAd=@kullaniciAd", kullaniciParametreleri, "txt");
             return etkilenecekSatir;
         }
 
@@ -81,7 +81,7 @@ namespace BilgiHotelDAL
                 new SqlParameter{ParameterName="kullaniciAd",Value=silinecekKullanici.kullaniciAd},
                
             };
-            int etkilenecekSatir = BilgiHotelHelperSql.myExecuteNonQuery("delete from kullanicilar where kullaniciAd=@kullaniciAd", kullaniciParametreleri, "txt");
+            int etkilenecekSatir = BilgiHotelHelperSql.MyExecuteNonQuery("delete from kullanicilar where kullaniciAd=@kullaniciAd", kullaniciParametreleri, "txt");
             return etkilenecekSatir;
         }
 

@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalisanlarEntity.cs" />
+    <Compile Include="EmployeesEntity.cs" />
     <Compile Include="CinsiyetlerEntity.cs" />
     <Compile Include="DillerEntity.cs" />
     <Compile Include="EkstralarEntity.cs" />
@@ -53,7 +53,7 @@
     <Compile Include="KullanicilarEntity.cs" />
     <Compile Include="KullaniciTipleriEntity.cs" />
     <Compile Include="MisafirlerEntity.cs" />
-    <Compile Include="Musterilerentity.cs" />
+    <Compile Include="CustomersEntity.cs" />
     <Compile Include="odaDurumEntity.cs" />
     <Compile Include="OdalarEntity.cs" />
     <Compile Include="OdaOzellikleriEntity.cs" />
@@ -69,7 +69,7 @@
     <Compile Include="VardiyalarEntity.cs" />
     <Compile Include="YatakTipleriEntity.cs" />
     <Compile Include="YetkilerEntity.cs" />
-    <Compile Include="YoneticilerEntity.cs" />
+    <Compile Include="ManagersEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

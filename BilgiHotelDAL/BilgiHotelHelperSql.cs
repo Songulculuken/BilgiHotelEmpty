@@ -1,4 +1,4 @@
-﻿using Data_Connections;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -11,7 +11,7 @@ namespace BilgiHotelDAL
     public class BilgiHotelHelperSql
     {
         //SqlConnection
-        private static SqlConnection myConnection()
+        private static SqlConnection MyConnection()
         {
             return new SqlConnection(DataConnections.Get_MsSqlConnecionString);
         }
@@ -28,7 +28,7 @@ namespace BilgiHotelDAL
             }
         }
         //SqlCommand
-        public static SqlCommand mySqlCommand(string mySqcScript, string myCommandType, SqlParameter[] myParameters)
+        public static SqlCommand MySqlCommand(string mySqcScript, string myCommandType, SqlParameter[] myParameters)
         {
             SqlCommand cmd = new SqlCommand();
             if (myCommandType == "sp")
@@ -41,27 +41,27 @@ namespace BilgiHotelDAL
             }
             return cmd;
         }
-        public static int myExecuteNonQuery(string spName, SqlParameter[] cmdParams, string myCommandType)
+        public static int MyExecuteNonQuery(string spName, SqlParameter[] cmdParams, string myCommandType)
         {
-            SqlCommand cmd = mySqlCommand(spName, myCommandType, cmdParams);
+            SqlCommand cmd = MySqlCommand(spName, myCommandType, cmdParams);
             cmd.Connection.Open();
             int donenSatir = cmd.ExecuteNonQuery();
             cmd.Connection.Close();
             return donenSatir;
         }
         //SqlCommand, ExecuteScalar
-        public static object myExecuteScalar(string spName, SqlParameter[] cmdParams, string myCommandType)
+        public static object MyExecuteScalar(string spName, SqlParameter[] cmdParams, string myCommandType)
         {
-            SqlCommand cmd = mySqlCommand(spName, myCommandType, cmdParams);
+            SqlCommand cmd = MySqlCommand(spName, myCommandType, cmdParams);
             cmd.Connection.Open();
             object donenDeger = cmd.ExecuteScalar();
             cmd.Connection.Close();
             return donenDeger;
         }
 
-        public  static SqlDataReader myExecuteReader(string spName, SqlParameter[] cmdParams, string myCommandType )
+        public  static SqlDataReader MyExecuteReader(string spName, SqlParameter[] cmdParams, string myCommandType )
         {
-            SqlCommand command = mySqlCommand(spName, myCommandType, cmdParams);
+            SqlCommand command = MySqlCommand(spName, myCommandType, cmdParams);
             command.Connection.Open();
             SqlDataReader reader = command.ExecuteReader();
             command.Connection.Close();
@@ -70,7 +70,7 @@ namespace BilgiHotelDAL
 
         }
 
-        internal static SqlDataReader myExecuteReader(string v)
+        internal static SqlDataReader MyExecuteReader(string v)
         {
             throw new NotImplementedException();
         }

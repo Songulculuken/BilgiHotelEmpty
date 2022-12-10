@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BilgiHotelHelperSql.cs" />
-    <Compile Include="CalisanlarDAL.cs" />
+    <Compile Include="EmployeeDAL.cs" />
     <Compile Include="CinsiyetlerDAL.cs" />
     <Compile Include="DataConnections.cs" />
     <Compile Include="DillerDAL.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="KullanicilarDAL.cs" />
     <Compile Include="KullaniciTipleriDAL.cs" />
     <Compile Include="MisafilerDAL.cs" />
-    <Compile Include="MusterilerDAL.cs" />
+    <Compile Include="CustomersDAL.cs" />
     <Compile Include="OdaDurumDAL.cs" />
     <Compile Include="OdaOzellikleriDAL.cs" />
     <Compile Include="OdaTipleriDAL.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="VardiyalarDAL.cs" />
     <Compile Include="YatakTipleriDAL.cs" />
     <Compile Include="YetkilerDAL.cs" />
-    <Compile Include="YoneticilerDAL.cs" />
+    <Compile Include="ManagersDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">
