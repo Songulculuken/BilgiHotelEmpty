@@ -51,14 +51,14 @@
     <Compile Include="IlcelerDAL.cs" />
     <Compile Include="KampanyalarDAL.cs" />
     <Compile Include="KartlarDAL.cs" />
-    <Compile Include="KatlarDAL.cs" />
+    <Compile Include="FloorsDAL.cs" />
     <Compile Include="UsersDAL.cs" />
     <Compile Include="KullaniciTipleriDAL.cs" />
     <Compile Include="GuestsDAL.cs" />
     <Compile Include="CustomersDAL.cs" />
     <Compile Include="OdaDurumDAL.cs" />
     <Compile Include="OdaOzellikleriDAL.cs" />
-    <Compile Include="OdaTipleriDAL.cs" />
+    <Compile Include="RoomTypesDAL.cs" />
     <Compile Include="PaketlerDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RezervasyonTipiDAL.cs" />

@@ -49,7 +49,7 @@
     <Compile Include="IlcelerEntity.cs" />
     <Compile Include="KampanyalarEntity.cs" />
     <Compile Include="KartlarEntity.cs" />
-    <Compile Include="KatlarEntity.cs" />
+    <Compile Include="FloorsEntity.cs" />
     <Compile Include="UsersEntity.cs" />
     <Compile Include="KullaniciTipleriEntity.cs" />
     <Compile Include="GuestsEntity.cs" />
@@ -57,7 +57,7 @@
     <Compile Include="odaDurumEntity.cs" />
     <Compile Include="OdalarEntity.cs" />
     <Compile Include="OdaOzellikleriEntity.cs" />
-    <Compile Include="OdaTipleriEntity.cs" />
+    <Compile Include="RoomTypesEntity.cs" />
     <Compile Include="OdemelerEntity.cs" />
     <Compile Include="PaketlerEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
