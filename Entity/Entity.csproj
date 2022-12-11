@@ -50,9 +50,9 @@
     <Compile Include="KampanyalarEntity.cs" />
     <Compile Include="KartlarEntity.cs" />
     <Compile Include="KatlarEntity.cs" />
-    <Compile Include="KullanicilarEntity.cs" />
+    <Compile Include="UsersEntity.cs" />
     <Compile Include="KullaniciTipleriEntity.cs" />
-    <Compile Include="MisafirlerEntity.cs" />
+    <Compile Include="GuestsEntity.cs" />
     <Compile Include="CustomersEntity.cs" />
     <Compile Include="odaDurumEntity.cs" />
     <Compile Include="OdalarEntity.cs" />

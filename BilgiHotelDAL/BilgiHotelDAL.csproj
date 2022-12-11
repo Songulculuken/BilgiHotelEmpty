@@ -52,9 +52,9 @@
     <Compile Include="KampanyalarDAL.cs" />
     <Compile Include="KartlarDAL.cs" />
     <Compile Include="KatlarDAL.cs" />
-    <Compile Include="KullanicilarDAL.cs" />
+    <Compile Include="UsersDAL.cs" />
     <Compile Include="KullaniciTipleriDAL.cs" />
-    <Compile Include="MisafilerDAL.cs" />
+    <Compile Include="GuestsDAL.cs" />
     <Compile Include="CustomersDAL.cs" />
     <Compile Include="OdaDurumDAL.cs" />
     <Compile Include="OdaOzellikleriDAL.cs" />
