@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmployeesEntity.cs" />
-    <Compile Include="CinsiyetlerEntity.cs" />
+    <Compile Include="GendersEntity.cs" />
     <Compile Include="DillerEntity.cs" />
     <Compile Include="EkstralarEntity.cs" />
     <Compile Include="GorevlerEntity.cs" />
