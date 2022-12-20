@@ -62,7 +62,7 @@
     <Compile Include="PaketlerDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RezervasyonTipiDAL.cs" />
-    <Compile Include="SehirlerDAL.cs" />
+    <Compile Include="CitiesDAL.cs" />
     <Compile Include="CountriesDAL.cs" />
     <Compile Include="VardiyalarDAL.cs" />
     <Compile Include="YatakTipleriDAL.cs" />

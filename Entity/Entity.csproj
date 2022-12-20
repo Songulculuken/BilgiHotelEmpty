@@ -64,7 +64,7 @@
     <Compile Include="RezervasyonlarEntity.cs" />
     <Compile Include="RezervasyonTipiEntity.cs" />
     <Compile Include="SatislarEntity.cs" />
-    <Compile Include="SehirlerEntity.cs" />
+    <Compile Include="CitiesEntity.cs" />
     <Compile Include="CountriesEntity.cs" />
     <Compile Include="VardiyalarEntity.cs" />
     <Compile Include="YatakTipleriEntity.cs" />
