@@ -47,7 +47,7 @@
     <Compile Include="DataConnections.cs" />
     <Compile Include="LanguagesDAL.cs" />
     <Compile Include="EkstralarDAL.cs" />
-    <Compile Include="GorevlerDAL.cs" />
+    <Compile Include="AssignmentsDAL.cs" />
     <Compile Include="DistrictsDAL.cs" />
     <Compile Include="KampanyalarDAL.cs" />
     <Compile Include="KartlarDAL.cs" />
