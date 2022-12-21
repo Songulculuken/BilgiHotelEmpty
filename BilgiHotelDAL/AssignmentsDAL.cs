@@ -17,15 +17,15 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter{ParameterName="assignmentName",Value=assignmentName},
             };
-            SqlDataReader gorevRdr = BilgiHotelHelperSql.MyExecuteReader("select * from Assignments where assignmentName=@assignmentName", assignmentParameters, "txt");
-            AssignmentsEntity myGorev = new AssignmentsEntity();
-            while(gorevRdr.Read())
+            SqlDataReader assignmentRdr = BilgiHotelHelperSql.MyExecuteReader("select * from Assignments where assignmentName=@assignmentName", assignmentParameters, "txt");
+            AssignmentsEntity myAssignment = new AssignmentsEntity();
+            while(assignmentRdr.Read())
             {
-                myGorev.assignmentName = gorevRdr[1].ToString();
-                myGorev.isTheAssignmentActive = (bool)gorevRdr[2];
-                myGorev.assignmentDescription = gorevRdr[3].ToString();
+                myAssignment.assignmentName = assignmentRdr[1].ToString();
+                myAssignment.isTheAssignmentActive = (bool)assignmentRdr[2];
+                myAssignment.assignmentDescription = assignmentRdr[3].ToString();
             }
-            return myGorev; 
+            return myAssignment; 
         }
         #endregion
         #region Assignment Insert
