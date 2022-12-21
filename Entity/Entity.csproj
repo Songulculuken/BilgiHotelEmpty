@@ -59,7 +59,7 @@
     <Compile Include="OdaOzellikleriEntity.cs" />
     <Compile Include="RoomTypesEntity.cs" />
     <Compile Include="OdemelerEntity.cs" />
-    <Compile Include="PaketlerEntity.cs" />
+    <Compile Include="PackagesEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RezervasyonlarEntity.cs" />
     <Compile Include="RezervasyonTipiEntity.cs" />

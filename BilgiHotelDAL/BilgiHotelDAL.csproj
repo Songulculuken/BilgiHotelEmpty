@@ -59,7 +59,7 @@
     <Compile Include="OdaDurumDAL.cs" />
     <Compile Include="OdaOzellikleriDAL.cs" />
     <Compile Include="RoomTypesDAL.cs" />
-    <Compile Include="PaketlerDAL.cs" />
+    <Compile Include="PackagesDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RezervasyonTipiDAL.cs" />
     <Compile Include="CitiesDAL.cs" />
