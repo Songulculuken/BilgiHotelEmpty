@@ -48,7 +48,7 @@
     <Compile Include="DillerDAL.cs" />
     <Compile Include="EkstralarDAL.cs" />
     <Compile Include="GorevlerDAL.cs" />
-    <Compile Include="IlcelerDAL.cs" />
+    <Compile Include="DistrictsDAL.cs" />
     <Compile Include="KampanyalarDAL.cs" />
     <Compile Include="KartlarDAL.cs" />
     <Compile Include="FloorsDAL.cs" />

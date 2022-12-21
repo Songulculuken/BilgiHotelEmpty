@@ -46,7 +46,7 @@
     <Compile Include="DillerEntity.cs" />
     <Compile Include="EkstralarEntity.cs" />
     <Compile Include="GorevlerEntity.cs" />
-    <Compile Include="IlcelerEntity.cs" />
+    <Compile Include="DistrictsEntity.cs" />
     <Compile Include="KampanyalarEntity.cs" />
     <Compile Include="KartlarEntity.cs" />
     <Compile Include="FloorsEntity.cs" />
