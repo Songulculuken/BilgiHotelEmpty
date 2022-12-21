@@ -45,7 +45,7 @@
     <Compile Include="EmployeeDAL.cs" />
     <Compile Include="GendersDAL.cs" />
     <Compile Include="DataConnections.cs" />
-    <Compile Include="DillerDAL.cs" />
+    <Compile Include="LanguagesDAL.cs" />
     <Compile Include="EkstralarDAL.cs" />
     <Compile Include="GorevlerDAL.cs" />
     <Compile Include="DistrictsDAL.cs" />

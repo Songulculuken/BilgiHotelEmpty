@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="EmployeesEntity.cs" />
     <Compile Include="GendersEntity.cs" />
-    <Compile Include="DillerEntity.cs" />
+    <Compile Include="LanguagesEntity.cs" />
     <Compile Include="EkstralarEntity.cs" />
     <Compile Include="GorevlerEntity.cs" />
     <Compile Include="DistrictsEntity.cs" />
