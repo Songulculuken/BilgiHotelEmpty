@@ -56,17 +56,17 @@
     <Compile Include="KullaniciTipleriDAL.cs" />
     <Compile Include="GuestsDAL.cs" />
     <Compile Include="CustomersDAL.cs" />
-    <Compile Include="OdaDurumDAL.cs" />
-    <Compile Include="OdaOzellikleriDAL.cs" />
+    <Compile Include="RoomSituationDAL.cs" />
+    <Compile Include="RoomPropertiesDAL.cs" />
     <Compile Include="RoomTypesDAL.cs" />
     <Compile Include="PackagesDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RezervasyonTipiDAL.cs" />
+    <Compile Include="ReservationTypeDAL.cs" />
     <Compile Include="CitiesDAL.cs" />
     <Compile Include="CountriesDAL.cs" />
-    <Compile Include="VardiyalarDAL.cs" />
+    <Compile Include="ShiftsDAL.cs" />
     <Compile Include="YatakTipleriDAL.cs" />
-    <Compile Include="YetkilerDAL.cs" />
+    <Compile Include="AuthorityDAL.cs" />
     <Compile Include="ManagersDAL.cs" />
   </ItemGroup>
   <ItemGroup>
