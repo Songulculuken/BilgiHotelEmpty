@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class YatakTipleriEntity
+    public class BedTypesEntity
     {
-        public int yatakTipiID { get; set; }
-        public string yatakOzellik { get; set; }
+        public int bedTypeID { get; set; }
+        public string bedProperty { get; set; }
     }
 }

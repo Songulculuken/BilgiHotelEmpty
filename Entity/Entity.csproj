@@ -51,7 +51,7 @@
     <Compile Include="CardsEntity.cs" />
     <Compile Include="FloorsEntity.cs" />
     <Compile Include="UsersEntity.cs" />
-    <Compile Include="KullaniciTipleriEntity.cs" />
+    <Compile Include="UserTypesEntity.cs" />
     <Compile Include="GuestsEntity.cs" />
     <Compile Include="CustomersEntity.cs" />
     <Compile Include="RoomSituationEntity.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="CitiesEntity.cs" />
     <Compile Include="CountriesEntity.cs" />
     <Compile Include="ShiftsEntity.cs" />
-    <Compile Include="YatakTipleriEntity.cs" />
+    <Compile Include="BedTypesEntity.cs" />
     <Compile Include="AuthorityEntity.cs" />
     <Compile Include="ManagersEntity.cs" />
   </ItemGroup>

@@ -53,7 +53,7 @@
     <Compile Include="CardsDAL.cs" />
     <Compile Include="FloorsDAL.cs" />
     <Compile Include="UsersDAL.cs" />
-    <Compile Include="KullaniciTipleriDAL.cs" />
+    <Compile Include="UserTypesDAL.cs" />
     <Compile Include="GuestsDAL.cs" />
     <Compile Include="CustomersDAL.cs" />
     <Compile Include="RoomSituationDAL.cs" />
@@ -65,7 +65,7 @@
     <Compile Include="CitiesDAL.cs" />
     <Compile Include="CountriesDAL.cs" />
     <Compile Include="ShiftsDAL.cs" />
-    <Compile Include="YatakTipleriDAL.cs" />
+    <Compile Include="BedTypesDAL.cs" />
     <Compile Include="AuthorityDAL.cs" />
     <Compile Include="ManagersDAL.cs" />
   </ItemGroup>
