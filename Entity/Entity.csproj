@@ -44,11 +44,11 @@
     <Compile Include="EmployeesEntity.cs" />
     <Compile Include="GendersEntity.cs" />
     <Compile Include="LanguagesEntity.cs" />
-    <Compile Include="EkstralarEntity.cs" />
+    <Compile Include="ExtrasEntity.cs" />
     <Compile Include="AssignmentsEntity.cs" />
     <Compile Include="DistrictsEntity.cs" />
-    <Compile Include="KampanyalarEntity.cs" />
-    <Compile Include="KartlarEntity.cs" />
+    <Compile Include="CampaignsEntity.cs" />
+    <Compile Include="CardsEntity.cs" />
     <Compile Include="FloorsEntity.cs" />
     <Compile Include="UsersEntity.cs" />
     <Compile Include="KullaniciTipleriEntity.cs" />

@@ -46,11 +46,11 @@
     <Compile Include="GendersDAL.cs" />
     <Compile Include="DataConnections.cs" />
     <Compile Include="LanguagesDAL.cs" />
-    <Compile Include="EkstralarDAL.cs" />
+    <Compile Include="ExtrasDAL.cs" />
     <Compile Include="AssignmentsDAL.cs" />
     <Compile Include="DistrictsDAL.cs" />
-    <Compile Include="KampanyalarDAL.cs" />
-    <Compile Include="KartlarDAL.cs" />
+    <Compile Include="CampaignsDAL.cs" />
+    <Compile Include="CardsDAL.cs" />
     <Compile Include="FloorsDAL.cs" />
     <Compile Include="UsersDAL.cs" />
     <Compile Include="KullaniciTipleriDAL.cs" />
