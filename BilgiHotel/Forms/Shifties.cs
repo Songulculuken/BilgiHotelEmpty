@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BilgiHotel
+namespace BilgiHotel.Forms
 {
-    public partial class AnaSayfa : Form
+    public partial class Shifties : Form
     {
-        public AnaSayfa()
+        public Shifties()
         {
             InitializeComponent();
         }

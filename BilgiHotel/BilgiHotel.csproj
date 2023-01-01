@@ -36,12 +36,60 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnaSayfa.cs">
+    <Compile Include="Forms\Campaigns.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnaSayfa.Designer.cs">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    <Compile Include="Forms\Campaigns.Designer.cs">
+      <DependentUpon>Campaigns.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms.Designer.cs">
+      <DependentUpon>Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Shifties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Shifties.Designer.cs">
+      <DependentUpon>Shifties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,9 +99,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AnaSayfa.resx">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Rooms.resx">
+      <DependentUpon>Rooms.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\growth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-building-hotel-clipart-png-33 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
