@@ -15,12 +15,12 @@ namespace BilgiHotel.Forms
         public Rooms()
         {
             InitializeComponent();
-            LoadTheme();
+            
         }
 
         private void Rooms_Load(object sender, EventArgs e)
         {
-            
+            LoadTheme();    
         }
         private void LoadTheme()
         {

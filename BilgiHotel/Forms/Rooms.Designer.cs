@@ -395,7 +395,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Name = "Rooms";
-            this.Text = "Rooms";
+            this.Text = "ODALAR";
             this.Load += new System.EventHandler(this.Rooms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
